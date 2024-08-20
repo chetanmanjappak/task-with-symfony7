@@ -1,0 +1,1 @@
+*/5 * * * * /usr/local/bin/php /app/bin/console app:process-scan >> /var/log/cron.log 2>&1

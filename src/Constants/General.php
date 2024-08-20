@@ -1,0 +1,9 @@
+<?php
+namespace App\Constants;
+
+class General
+{
+    public const NOTIFICATION_UPLOAD_IN_PROGRESS = 'UPLOAD-IN-PROGRESS';
+    public const NOTIFICATION_FOUND_VULNERABILITIES = 'FOUND-VULNERABILITIES';
+    public const NOTIFICATION_UPLOAD_FAILED = 'UPLOAD-FAILED';
+}
